@@ -11,6 +11,10 @@ Export metrics custom by prometheus and python app
 - [x] generar imagen de docker. Así se puede usar como una api de servicio.
 - [x] refactor
 
+# Problematica
+
+No siempre telegraf, u otra herramienta de extracción de metricas nos puede funcionar acorde a los resultados esperados por medio de snmp. Cuando falla la devolución en formato **table**. Por lo tanto opte por realizar un servicio para converir la salida en lo que necesito.
+
 # Generar dependencias
 
 ```
@@ -61,3 +65,4 @@ NAT-MIB::natAddrBindInTranslates.0.ipv4."ip3" = Counter64: n
 ```
 
 Como metodología inicial se podria extender de clase DeviceNetwork y Mib. De forma tal de implementar cualquier device y OID como modulo y expotar las metricas en formato de prometheus.
+
