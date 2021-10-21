@@ -1,0 +1,8 @@
+app/config/*.json
+*.pyc
+snmp-mibs
+monitor-snmp
+dist
+deploy-requirements.txt
+mibs
+fixit
