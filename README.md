@@ -11,7 +11,7 @@ Export metrics custom by prometheus and python app
 - [x] generar imagen de docker. Así se puede usar como una api de servicio.
 - [x] refactor
 
-# Que me permite realizar?
+# Qué me permite realizar?
 
 No siempre telegraf, u otra herramienta de extracción/lectura de metricas nos puede funcionar acorde a los resultados esperados por medio de snmp. Cuando falla la devolución en formato **table**. Por lo tanto opte por realizar un servicio para converir la salida en lo que necesito.
 
@@ -38,7 +38,7 @@ docker --rm -v config.json:...app.json -p x:5000 nombre-service:version
 
 En caso de pasar a kubernetes o Swarm simplemente agregan los datos correspondientes a secrets de json y demas configuración relacionada al deploy de servicio.
 
-# Ejemplo configuracion:
+# Ejemplo configuración:
 config.json
 ```
 {
@@ -53,7 +53,7 @@ config.json
     }
 }
 ```
-Que me permite exportar?
+Qué me permite exportar?
 ```
 
 NAT-MIB::natAddrBindInTranslates.0.ipv4."ip1" = Counter64: n
