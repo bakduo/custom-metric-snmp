@@ -1,4 +1,4 @@
-Export metrics custom to grafana with data by snmp
+Export metrics custom by prometheus and python app
 ===============================
 
 # ROADMAP
